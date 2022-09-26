@@ -1,0 +1,15 @@
+.productList {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+.orderSum {
+	/* position: fixed; */
+	/* position: absolute; */
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0px;
+	padding-top: 20px;
+	background-color: rgba(255, 228, 196, 0.678);
+	height: 100vh;
+}
